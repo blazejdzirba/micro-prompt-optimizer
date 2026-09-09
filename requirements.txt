@@ -1,0 +1,20 @@
+requests
+pyperclip
+
+# ── Notatki głosowe (widok REC, przycisk 🎤) ───────────────────────
+# Wymagane (od v7) — dyktowanie promptów po polsku przez Whispera.
+# Przy instalacji pip dociąga torch (duży!) — uwaga na podpowiedź niżej.
+openai-whisper
+sounddevice
+numpy
+
+# ── GPU NVIDIA (np. GTX 1650) — szybsza transkrypcja ───────────────
+# Domyślny torch z PyPI zawiera CUDA 12; jeśli chcesz wersję dopasowaną
+# do sterownika:  pip install torch --index-url https://download.pytorch.org/whl/cu121
+#
+# UWAGA: koła torch/triton mają po 250 MB–2,5 GB. Przy wolnym łączu,
+# jeśli wystąpi ReadTimeoutError, powtórz z dłuższym timeoutem:
+#   pip install --timeout 120 --retries 10 -r requirements.txt
+#
+# Model do transkrypcji NIE jest pobierany przy instalacji — dopiero
+# przy pierwszym użyciu widoku REC / z Ustawień (400+ MB, jednorazowo).
