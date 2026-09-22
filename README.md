@@ -1,8 +1,19 @@
 # Micro Prompt Optimizer
 
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-blue)](https://github.com/blazejdzirba/micro-prompt-optimizer)
+[![Whisper](https://img.shields.io/badge/Whisper-Offline-412991?logo=openai)](https://github.com/openai/whisper)
+
 Desktopowa aplikacja (tkinter) do pracy z promptami przez **OpenRouter API**:
 optymalizuje Twoje prompty, dopytuje o szczegóły, składa je z gotowych
 składowych i tworzy prompty systemowe. Ciemny motyw, bez zamrażania UI.
+
+## Screenshots
+
+![Główne okno](./assets/screenshots/main.png)
+![Tryb Kreatora](./assets/screenshots/builder.png)
+![Widok REC — notatki głosowe](./assets/screenshots/rec.png)
 
 ## Tryby pracy
 
